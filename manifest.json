@@ -4,7 +4,7 @@
   "name": "HeaderTracker",
   "description": "This extension keeps track of the headers your browser is receiving whenever you visit a webpage. You can see how common certain headers are, and this extension will highlight all your headers that are a little 'odd'",
   "version": "1.0",
-"content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com https://*.firebaseio-demo.com; object-src 'self'",
+"content_security_policy": "script-src 'self' 'unsafe-eval' https://cdn.firebase.com https://*.firebaseio.com https://*.firebaseio-demo.com; object-src 'self'",
   "content_scripts" : [
 		{
 			"matches": ["<all_urls>"],
